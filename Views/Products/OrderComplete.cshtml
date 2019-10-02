@@ -1,0 +1,12 @@
+﻿@model CompoShop.Models.Client
+
+@{
+    ViewBag.Title = "OrderComplete";
+}
+
+<h2>Your Order Is Complete!</h2>
+<h2>Thank You, @ViewBag.ClientObj.FirstName !</ h2 >
+
+    <div>
+        @Html.ActionLink("Back to Products", "Catalogue")
+    </div>
